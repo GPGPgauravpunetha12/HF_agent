@@ -1,6 +1,23 @@
 .env
 *.env
-
-__pycache__/
-venv/
 .env.local
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Gradio cache and config
+.gradio/
+
+# Qodo / Codium cache
+.qodo/
+
+# Temporary folders
+temp_langfuse_skills/
